@@ -48,7 +48,7 @@ const ContactSection = () => {
             </a>
             <a
     href="/ATHARVA_BAPAT.pdf" // Replace with the actual path to your resume file
-    download="Atharva_Bapat_Resume.pdf" // Optional: Specify the downloaded file name
+    download="Atharva Bapat Resume.pdf" // Optional: Specify the downloaded file name
     className="bg-purple-800/80 hover:bg-purple-700 text-white px-8 py-4 rounded-full transition-all duration-300 text-lg font-medium hover:shadow-lg hover:shadow-purple-500/25 hover:scale-105 flex items-center space-x-2"
   >
     Download Resume
