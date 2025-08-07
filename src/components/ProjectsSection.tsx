@@ -3,8 +3,8 @@ import { Database, ArrowRight } from 'lucide-react';
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "Datagaze - NLP Database Assistant",
-      description: "Developed a state-of-the-art NLP chatbot using AWS Bedrock foundation models, enabling users to perform natural language based CRUD operations on a PostgreSQL database. Enhanced user autonomy and reduced dependency on technical teams.",
+      title: "LLM-Based Natural Language Querying for Database",
+      description: "Developed a state-of-the-art NLP chatbot using AWS Bedrock foundation models wrapped with an MCP (Model–Context–Protocol) layer to manage context and tool calls for natural language-based CRUD operations on a PostgreSQL database. Enhanced user autonomy and reduced reliance on technical teams by enabling intuitive, language-driven data access, streamlining internal query workflows and improving decision-making efficiency. Applied prompt engineering to improve response reliability and reduce hallucinations by guiding the model to accurately translate user questions into SQL queries.",
       image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop",
       technologies: ["AWS Bedrock", "PostgreSQL", "NLP", "Few-shot Learning", "Prompt Engineering"],
       liveUrl: "#",
@@ -12,10 +12,10 @@ const ProjectsSection = () => {
       featured: true
     },
     {
-      title: "Anomaly Detection for Event Streams",
-      description: "Designed real-time anomaly detection system using Isolation Forest and DBSCAN to identify API failures, latency spikes, and anomalous user behaviors within streaming event data. Applicable across healthcare, fintech, and IT security.",
+      title: "Consumer Purchase Behavior Modeling",
+      description: "Built a machine learning pipeline to analyze consumer data and predict repeat purchase likelihood using logistic regression and decision trees, leveraging the Instacart Online Grocery Basket dataset. Engineered features such as recency and frequency of purchases to understand shopping behavior, and grouped users based on loyalty and product preferences to enhance targeting. Simulated A/B testing to evaluate campaign strategies and applied uplift modeling to estimate the impact of promotions.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
-      technologies: ["Isolation Forest", "DBSCAN", "Machine Learning", "Real-time Processing", "Anomaly Detection"],
+      technologies: ["Decision Trees", "Machine Learning", "Real-time Processing", "Consumer Analytics"],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
@@ -30,10 +30,10 @@ const ProjectsSection = () => {
       featured: false
     },
     {
-      title: "Menu Recommendation based on Computer Vision",
-      description: "Implemented EfficientNet, ResNet50, and YOLOv8 for food image classification and object detection in a real-time menu recommendation system. Used a curated image database from University Dining to train and test models. EfficientNet achieved the highest accuracy, outperforming ResNet50 by 15%. It also reduced inference time by 20%, significantly enhancing system efficiency.",
+      title: "DocumentIQ: Intelligent Financial Document Process",
+      description: "Built an automated pipeline using Hugging Face’s LayoutLM to extract structured data from scanned government and financial documents such as tax forms and KYC records. Developed an interactive Streamlit UI for document upload and review, powered by a FastAPI backend that managed OCR processing, data validation, and database integration. Streamlined the document processing workflow and reduced manual data entry by 80%, enabling faster access to critical financial information.",
       image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=800&h=600&fit=crop",
-      technologies: ["Python", "OpenCV", "Machine Learning", "Pandas"],
+      technologies: ["Python", "Machine Learning", "Hugging Face", "OCR", "Streamlit", "FastAPI"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false

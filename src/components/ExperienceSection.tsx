@@ -8,7 +8,7 @@ const ExperienceSection = () => {
       company: "Theoremlabs Partners LLC",
       period: "Sep 2024 - Present",
       location: "Charlotte, NC",
-      description: "Designed and implemented scalable ETL pipelines using Python, AWS Lambda, and EventBridge for real-time data ingestion and transformation. Built SQL views to deliver tailored insights to stakeholders, enhancing strategic decision-making. Developed a Microsoft Copilot bot leveraging advisory data to provide intelligent responses, improving financial advisors’ decision-making speed by 60%.",
+      description: "Improved scalability and reduced operational costs by deploying serverless architectures using AWS Lambda, Step Functions, API Gateway, S3, SQS, and SNS. Decreased release failures and streamlined deployments by automating CI/CD pipelines with Git, Jenkins, and CloudFormation. Accelerated financial advisor decision-making by 60% through the development of a Microsoft Copilot bot that leveraged advisory data to answer domain-specific questions. Additionally, boosted insight accessibility by 40% by designing SQL views and conducting thorough data validation to support stakeholder-driven strategy development.",
       technologies: ["Python", "AWS Lambda", "Microsoft Copilot", "SQL", "Agile Methodologies"]
     },
     {
@@ -24,7 +24,7 @@ const ExperienceSection = () => {
       company: "Persistent Systems",
       period: "Jan 2022 - Jun 2022",
       location: "Pune, India",
-      description: "Designed intuitive user interfaces in Figma and developed React + TypeScript dashboards integrated with AWS APIs for dynamic data retrieval and visualization. Implemented AWS API Gateway over AWS Lambda to securely fetch data based on user-selected time ranges.",
+      description: "Enabled dynamic infrastructure observability and improved decision-making by building React and TypeScript dashboards integrated with AWS APIs for real-time data visualization. Ensured secure and flexible data access by implementing AWS API Gateway over Lambda APIs, allowing users to retrieve data based on custom time ranges while maintaining data privacy.",
       technologies: ["Figma", "React", "TypeScript", "AWS API Gateway", "AWS Lambda", "Data Visualization"]
     }
   ];

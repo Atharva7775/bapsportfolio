@@ -47,7 +47,7 @@ const ContactSection = () => {
               Connect on LinkedIn
             </a>
             <a
-    href="/Atharva Bapat-Resume.pdf" // Replace with the actual path to your resume file
+    href="/Atharva Bapat Resume.pdf" // Replace with the actual path to your resume file
     download="Atharva Bapat Resume.pdf" // Optional: Specify the downloaded file name
     className="bg-purple-800/80 hover:bg-purple-700 text-white px-8 py-4 rounded-full transition-all duration-300 text-lg font-medium hover:shadow-lg hover:shadow-purple-500/25 hover:scale-105 flex items-center space-x-2"
   >
@@ -69,7 +69,7 @@ const ContactSection = () => {
 
           <div className="text-center text-gray-400">
             <p className="text-sm mb-2">+1 980-382-0745</p>
-            <p className="text-sm">Charlotte, NC</p>
+            {/* <p className="text-sm">Charlotte, NC</p> */}
           </div>
         </div>
 
