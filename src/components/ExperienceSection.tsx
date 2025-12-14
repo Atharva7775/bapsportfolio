@@ -8,9 +8,10 @@ const ExperienceSection = () => {
       period: "Sep 2024 - Present",
       location: "Charlotte, NC",
       description: [
-        "Developed NLP chatbot using AWS Bedrock with MCP layer for natural language CRUD operations on PostgreSQL database",
-        "Built Microsoft Copilot bot improving financial advisors' decision-making speed by 60%",
-        "Automated document processing with Hugging Face LayoutLM, reducing manual data entry by 80%"
+        "Developed a natural language chatbot using AWS Bedrock foundation models with a custom MCP (Model-Context-Protocol) layer to handle context management and tool calls, enabling users to perform CRUD operations on PostgreSQL databases using conversational queries",
+        "Built an intelligent Microsoft Copilot bot that helps financial advisors quickly access company advisory data to answer questions, improving their decision-making speed by 60% and streamlining information retrieval workflows",
+        "Created an automated document processing pipeline using Hugging Face's LayoutLM to extract structured data from scanned government and financial documents like tax forms and KYC records, reducing manual data entry by 80%",
+        "Integrated Azure services including Blob Storage, Key Vault, and OpenAI with Power Automate to build secure and scalable AI-driven solutions for financial data processing"
       ],
       technologies: ["Python", "AWS Bedrock", "PostgreSQL", "Microsoft Copilot", "Azure Services", "Hugging Face", "FastAPI", "Streamlit"]
     },
@@ -20,8 +21,8 @@ const ExperienceSection = () => {
       period: "Oct 2022 - Apr 2024",
       location: "Charlotte, NC",
       description: [
-        "Facilitated Python lab activities and mentored students in Python scripting",
-        "Built PowerBI dashboards visualizing key academic metrics for faculty"
+        "Facilitated Python lab sessions where I helped students learn Python scripting, problem-solving techniques, and debugging strategies through hands-on coding exercises",
+        "Built and maintained PowerBI dashboards that visualized key academic metrics, helping faculty members track student performance trends and make data-driven decisions about course improvements"
       ],
       technologies: ["Python", "PowerBI"]
     },
@@ -31,9 +32,9 @@ const ExperienceSection = () => {
       period: "Jan 2022 - Jun 2022",
       location: "Pune, India",
       description: [
-        "Built ML pipeline to predict repeat purchase likelihood using logistic regression and decision trees",
-        "Developed real-time data pipeline handling 100K+ records/minute using Kafka and Spark Streaming",
-        "Reduced query response time by 40% through Redis caching and optimized PostgreSQL queries"
+        "Built a machine learning pipeline to analyze consumer purchase patterns using decision trees and logistic regression on the Instacart dataset, helping predict repeat purchase likelihood and understand customer shopping behaviors",
+        "Developed a real-time data processing pipeline using Kafka and Spark Streaming that could handle over 100,000 records per minute, enabling the system to process large volumes of consumer data efficiently",
+        "Improved database query performance by 40% by implementing a Redis caching layer and optimizing PostgreSQL queries, making data retrieval faster for downstream applications"
       ],
       technologies: ["Python", "Machine Learning", "Kafka", "Spark Streaming", "Redis", "PostgreSQL"]
     }
