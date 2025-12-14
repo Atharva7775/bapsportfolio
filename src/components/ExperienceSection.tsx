@@ -1,4 +1,3 @@
-
 import { Briefcase } from 'lucide-react';
 
 const ExperienceSection = () => {
@@ -8,15 +7,28 @@ const ExperienceSection = () => {
       company: "Theoremlabs Partners LLC",
       period: "Sep 2024 - Present",
       location: "Charlotte, NC",
-      description: "Improved scalability and reduced operational costs by deploying serverless architectures using AWS Lambda, Step Functions, API Gateway, S3, SQS, and SNS. Decreased release failures and streamlined deployments by automating CI/CD pipelines with Git, Jenkins, and CloudFormation. Accelerated financial advisor decision-making by 60% through the development of a Microsoft Copilot bot that leveraged advisory data to answer domain-specific questions. Additionally, boosted insight accessibility by 40% by designing SQL views and conducting thorough data validation to support stakeholder-driven strategy development.",
-      technologies: ["Python", "AWS Lambda", "Microsoft Copilot", "SQL", "Agile Methodologies"]
+      description: [
+        "Developed a state-of-the-art NLP chatbot using AWS Bedrock foundation models wrapped with an MCP (Model–Context–Protocol) layer to manage context and tool calls for natural language-based CRUD operations on a PostgreSQL database",
+        "Enhanced user autonomy and reduced reliance on technical teams by enabling intuitive, language-driven data access, streamlining internal query workflows and improving decision-making efficiency",
+        "Applied prompt engineering to improve response reliability and reduce hallucinations by guiding the model to accurately translate user questions into SQL queries",
+        "Developed an intelligent Microsoft Copilot bot that leverages company's advisory data to answer financial advisors' questions, streamlining information access and improving decision-making speed by 60%",
+        "Integrated Azure services (Blob Storage, Key Vault, OpenAI) to enable secure, scalable AI-driven solutions",
+        "Automated data extraction and structured financial insights using Azure Functions and Power Automate, reducing manual processing time by 40%",
+        "Built an automated pipeline using Hugging Face's LayoutLM to extract structured data from scanned government and financial documents such as tax forms and KYC records",
+        "Developed an interactive Streamlit UI for document upload and review, powered by a FastAPI backend that managed OCR processing, data validation, and database integration",
+        "Streamlined the document processing workflow and reduced manual data entry by 80%, enabling faster access to critical financial information"
+      ],
+      technologies: ["Python", "AWS Bedrock", "PostgreSQL", "NLP", "Microsoft Copilot", "Azure Services", "Hugging Face", "FastAPI", "Streamlit"]
     },
     {
       title: "Instructional Assistant",
       company: "University of North Carolina at Charlotte",
       period: "Oct 2022 - Apr 2024",
       location: "Charlotte, NC",
-      description: "Facilitated Python lab activities and mentored students in Python scripting and problem-solving. Built and maintained PowerBI dashboards visualizing key academic metrics, enabling faculty to track student performance trends.",
+      description: [
+        "Facilitated Python lab activities and mentored students in Python scripting and problem-solving",
+        "Built and maintained PowerBI dashboards visualizing key academic metrics, enabling faculty to track student performance trends"
+      ],
       technologies: ["Python", "PowerBI", "Data Visualization", "Teaching", "Mentoring"]
     },
     {
@@ -24,8 +36,15 @@ const ExperienceSection = () => {
       company: "Persistent Systems",
       period: "Jan 2022 - Jun 2022",
       location: "Pune, India",
-      description: "Enabled dynamic infrastructure observability and improved decision-making by building React and TypeScript dashboards integrated with AWS APIs for real-time data visualization. Ensured secure and flexible data access by implementing AWS API Gateway over Lambda APIs, allowing users to retrieve data based on custom time ranges while maintaining data privacy.",
-      technologies: ["Figma", "React", "TypeScript", "AWS API Gateway", "AWS Lambda", "Data Visualization"]
+      description: [
+        "Built a machine learning pipeline to analyze consumer data and predict repeat purchase likelihood using logistic regression and decision trees, leveraging the Instacart Online Grocery Basket dataset",
+        "Engineered features such as recency and frequency of purchases to understand shopping behavior, and grouped users based on loyalty and product preferences to enhance targeting",
+        "Applied uplift modeling to estimate the impact of promotions",
+        "Developed a scalable real-time data ingestion and processing pipeline handling 100K+ records/minute using Kafka and Spark Streaming",
+        "Reduced query response time by 40% through Redis caching layer and optimized PostgreSQL queries",
+        "Implemented automated monitoring and alerting using Prometheus and Grafana for system health tracking"
+      ],
+      technologies: ["Machine Learning", "Decision Trees", "Kafka", "Spark Streaming", "Redis", "PostgreSQL", "Prometheus", "Grafana"]
     }
   ];
 
@@ -66,7 +85,14 @@ const ExperienceSection = () => {
                     <h4 className="text-lg text-blue-400 mb-1">{exp.company}</h4>
                     <p className="text-gray-400 text-sm mb-4">{exp.location}</p>
                     
-                    <p className="text-gray-300 mb-4 leading-relaxed">{exp.description}</p>
+                    <ul className="text-gray-300 mb-4 leading-relaxed space-y-2">
+                      {exp.description.map((point, pointIndex) => (
+                        <li key={pointIndex} className="flex items-start">
+                          <span className="text-purple-400 mr-2 mt-1">•</span>
+                          <span className="text-sm">{point}</span>
+                        </li>
+                      ))}
+                    </ul>
                     
                     <div className="flex flex-wrap gap-2">
                       {exp.technologies.map((tech, techIndex) => (

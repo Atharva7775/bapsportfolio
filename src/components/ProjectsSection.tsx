@@ -13,7 +13,7 @@ const ProjectsSection = () => {
     },
     {
       title: "Consumer Purchase Behavior Modeling",
-      description: "Built a machine learning pipeline to analyze consumer data and predict repeat purchase likelihood using logistic regression and decision trees, leveraging the Instacart Online Grocery Basket dataset. Engineered features such as recency and frequency of purchases to understand shopping behavior, and grouped users based on loyalty and product preferences to enhance targeting. Simulated A/B testing to evaluate campaign strategies and applied uplift modeling to estimate the impact of promotions.",
+      description: "Built a machine learning pipeline to analyze consumer data and predict repeat purchase likelihood using logistic regression and decision trees, leveraging the Instacart Online Grocery Basket dataset. Engineered features such as recency and frequency of purchases to understand shopping behavior, and grouped users based on loyalty and product preferences to enhance targeting. Applied uplift modeling to estimate the impact of promotions.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
       technologies: ["Decision Trees", "Machine Learning", "Real-time Processing", "Consumer Analytics"],
       liveUrl: "#",

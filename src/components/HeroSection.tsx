@@ -51,8 +51,10 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-gray-300 text-lg md:text-xl max-w-4xl mx-auto mb-12 leading-relaxed animate-fade-in">
-        Data Scientist with expertise in building scalable ETL pipelines, intelligent automation tools, and NLP-powered database assistants. 
-        Passionate about creating data-driven solutions that enhance accessibility, decision-making, and operational efficiency across industries.
+        Engineer with expertise in analytics, holding a Master’s in Computer Science and hands-on experience building scalable
+        analytics pipelines, curated datasets, and data-driven platforms. Strong background in SQL, Python, AWS, and Airflow, with
+        experience supporting analytics use cases through data modeling, validation, automation, and cloud-native architectures.
+        Focused on data quality, ownership, and enabling data democratization across teams.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in">
