@@ -8,17 +8,11 @@ const ExperienceSection = () => {
       period: "Sep 2024 - Present",
       location: "Charlotte, NC",
       description: [
-        "Developed a state-of-the-art NLP chatbot using AWS Bedrock foundation models wrapped with an MCP (Model–Context–Protocol) layer to manage context and tool calls for natural language-based CRUD operations on a PostgreSQL database",
-        "Enhanced user autonomy and reduced reliance on technical teams by enabling intuitive, language-driven data access, streamlining internal query workflows and improving decision-making efficiency",
-        "Applied prompt engineering to improve response reliability and reduce hallucinations by guiding the model to accurately translate user questions into SQL queries",
-        "Developed an intelligent Microsoft Copilot bot that leverages company's advisory data to answer financial advisors' questions, streamlining information access and improving decision-making speed by 60%",
-        "Integrated Azure services (Blob Storage, Key Vault, OpenAI) to enable secure, scalable AI-driven solutions",
-        "Automated data extraction and structured financial insights using Azure Functions and Power Automate, reducing manual processing time by 40%",
-        "Built an automated pipeline using Hugging Face's LayoutLM to extract structured data from scanned government and financial documents such as tax forms and KYC records",
-        "Developed an interactive Streamlit UI for document upload and review, powered by a FastAPI backend that managed OCR processing, data validation, and database integration",
-        "Streamlined the document processing workflow and reduced manual data entry by 80%, enabling faster access to critical financial information"
+        "Developed NLP chatbot using AWS Bedrock with MCP layer for natural language CRUD operations on PostgreSQL database",
+        "Built Microsoft Copilot bot improving financial advisors' decision-making speed by 60%",
+        "Automated document processing with Hugging Face LayoutLM, reducing manual data entry by 80%"
       ],
-      technologies: ["Python", "AWS Bedrock", "PostgreSQL", "NLP", "Microsoft Copilot", "Azure Services", "Hugging Face", "FastAPI", "Streamlit"]
+      technologies: ["Python", "AWS Bedrock", "PostgreSQL", "Microsoft Copilot", "Azure Services", "Hugging Face", "FastAPI", "Streamlit"]
     },
     {
       title: "Instructional Assistant",
@@ -26,10 +20,10 @@ const ExperienceSection = () => {
       period: "Oct 2022 - Apr 2024",
       location: "Charlotte, NC",
       description: [
-        "Facilitated Python lab activities and mentored students in Python scripting and problem-solving",
-        "Built and maintained PowerBI dashboards visualizing key academic metrics, enabling faculty to track student performance trends"
+        "Facilitated Python lab activities and mentored students in Python scripting",
+        "Built PowerBI dashboards visualizing key academic metrics for faculty"
       ],
-      technologies: ["Python", "PowerBI", "Data Visualization", "Teaching", "Mentoring"]
+      technologies: ["Python", "PowerBI"]
     },
     {
       title: "Software Developer",
@@ -37,14 +31,11 @@ const ExperienceSection = () => {
       period: "Jan 2022 - Jun 2022",
       location: "Pune, India",
       description: [
-        "Built a machine learning pipeline to analyze consumer data and predict repeat purchase likelihood using logistic regression and decision trees, leveraging the Instacart Online Grocery Basket dataset",
-        "Engineered features such as recency and frequency of purchases to understand shopping behavior, and grouped users based on loyalty and product preferences to enhance targeting",
-        "Applied uplift modeling to estimate the impact of promotions",
-        "Developed a scalable real-time data ingestion and processing pipeline handling 100K+ records/minute using Kafka and Spark Streaming",
-        "Reduced query response time by 40% through Redis caching layer and optimized PostgreSQL queries",
-        "Implemented automated monitoring and alerting using Prometheus and Grafana for system health tracking"
+        "Built ML pipeline to predict repeat purchase likelihood using logistic regression and decision trees",
+        "Developed real-time data pipeline handling 100K+ records/minute using Kafka and Spark Streaming",
+        "Reduced query response time by 40% through Redis caching and optimized PostgreSQL queries"
       ],
-      technologies: ["Machine Learning", "Decision Trees", "Kafka", "Spark Streaming", "Redis", "PostgreSQL", "Prometheus", "Grafana"]
+      technologies: ["Python", "Machine Learning", "Kafka", "Spark Streaming", "Redis", "PostgreSQL"]
     }
   ];
 
