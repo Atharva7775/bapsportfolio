@@ -21,17 +21,17 @@ const ProjectsSection = () => {
       featured: true
     },
     {
-      title: "Microsoft Copilot Financial Bot",
-      description: "Developed an intelligent Microsoft Copilot bot that leverages company's advisory data to answer financial advisors' questions, streamlining information access and improving decision-making speed by 60%.",
-      image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&h=600&fit=crop",
-      technologies: ["Microsoft Copilot", "Financial Data", "NLP", "Question Answering", "Decision Support"],
+      title: "Stock Market Trend Analysis",
+      description: "Analyzed historical stock data using Python, Pandas, NumPy, Matplotlib, and Time-Series techniques to uncover trends, volatility patterns, and market signals. Built and evaluated predictive models using Scikit-learn, performing regression analysis, feature engineering, and statistical preprocessing to forecast short-term price movements. Developed interactive visualizations and dashboards using Matplotlib and Seaborn making it easy to read for non-technical staff.",
+      image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=600&fit=crop",
+      technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Seaborn"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
     },
     {
       title: "DocumentIQ: Intelligent Financial Document Process",
-      description: "Built an automated pipeline using Hugging Face’s LayoutLM to extract structured data from scanned government and financial documents such as tax forms and KYC records. Developed an interactive Streamlit UI for document upload and review, powered by a FastAPI backend that managed OCR processing, data validation, and database integration. Streamlined the document processing workflow and reduced manual data entry by 80%, enabling faster access to critical financial information.",
+      description: "Built an automated pipeline using Hugging Face's LayoutLM to extract structured data from scanned government and financial documents such as tax forms and KYC records. Developed an interactive Streamlit UI for document upload and review, powered by a FastAPI backend that managed OCR processing, data validation, and database integration. Streamlined the document processing workflow and reduced manual data entry by 80%, enabling faster access to critical financial information.",
       image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=800&h=600&fit=crop",
       technologies: ["Python", "Machine Learning", "Hugging Face", "OCR", "Streamlit", "FastAPI"],
       liveUrl: "#",
