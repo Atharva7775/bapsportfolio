@@ -8,12 +8,13 @@ const ExperienceSection = () => {
       period: "Sep 2024 - Present",
       location: "Charlotte, NC",
       description: [
-        "Developed a natural language chatbot using AWS Bedrock foundation models with a custom MCP (Model-Context-Protocol) layer to handle context management and tool calls, enabling users to perform CRUD operations on PostgreSQL databases using conversational queries",
-        "Built an intelligent Microsoft Copilot bot that helps financial advisors quickly access company advisory data to answer questions, improving their decision-making speed by 60% and streamlining information retrieval workflows",
-        "Created an automated document processing pipeline using Hugging Face's LayoutLM to extract structured data from scanned government and financial documents like tax forms and KYC records, reducing manual data entry by 80%",
-        "Integrated Azure services including Blob Storage, Key Vault, and OpenAI with Power Automate to build secure and scalable AI-driven solutions for financial data processing"
+        "Improved scalability and reduced operational costs by deploying serverless architectures using AWS Lambda, Step Functions, API Gateway, S3, SQS, and SNS to handle varying workloads efficiently without managing infrastructure",
+        "Built APIs for feature enhancements in internal applications, enabling data-driven personalization that improved business operations and user experience across multiple platforms",
+        "Built a self-serve question answer bot with Microsoft Copilot Studio leveraging domain-specific embeddings and LLM integration, boosting advisor decision-making efficiency by 60% through faster access to relevant information",
+        "Designed SQL views to improve insight accessibility for stakeholders, making it easier for non-technical teams to query and analyze data without complex SQL knowledge",
+        "Performed data mapping by fetching JSON messages from RabbitMQ via API, using the extracted fields to build additional API calls to retrieve client's actual data and map it accurately across different systems for seamless integration"
       ],
-      technologies: ["Python", "AWS Bedrock", "PostgreSQL", "Microsoft Copilot", "Azure Services", "Hugging Face", "FastAPI", "Streamlit"]
+      technologies: ["Python", "AWS Lambda", "Step Functions", "API Gateway", "S3", "SQS", "SNS", "Microsoft Copilot Studio", "SQL", "RabbitMQ"]
     },
     {
       title: "Instructional Assistant",
@@ -32,11 +33,11 @@ const ExperienceSection = () => {
       period: "Jan 2022 - Jun 2022",
       location: "Pune, India",
       description: [
-        "Built a machine learning pipeline to analyze consumer purchase patterns using decision trees and logistic regression on the Instacart dataset, helping predict repeat purchase likelihood and understand customer shopping behaviors",
-        "Developed a real-time data processing pipeline using Kafka and Spark Streaming that could handle over 100,000 records per minute, enabling the system to process large volumes of consumer data efficiently",
-        "Improved database query performance by 40% by implementing a Redis caching layer and optimizing PostgreSQL queries, making data retrieval faster for downstream applications"
+        "Collaborated with cross-functional teams to translate business requirements into scalable data solutions, working closely with product managers and stakeholders to understand their needs and deliver technical implementations that aligned with business goals",
+        "Enabled dynamic infrastructure observability by building React + TypeScript dashboards integrated with AWS APIs for real-time monitoring, allowing teams to visualize system health, performance metrics, and resource utilization in an interactive interface",
+        "Ensured secure and flexible data access by implementing AWS API Gateway over Lambda APIs, allowing users to retrieve data by custom time ranges while preserving privacy through proper authentication and authorization mechanisms"
       ],
-      technologies: ["Python", "Machine Learning", "Kafka", "Spark Streaming", "Redis", "PostgreSQL"]
+      technologies: ["React", "TypeScript", "AWS API Gateway", "AWS Lambda", "Python"]
     }
   ];
 
