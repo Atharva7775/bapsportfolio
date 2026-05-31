@@ -21,10 +21,10 @@ const ProjectsSection = () => {
       featured: true
     },
     {
-      title: "Stock Market Trend Analysis",
-      description: "Analyzed historical stock data using Python, Pandas, NumPy, Matplotlib, and Time-Series techniques to uncover trends, volatility patterns, and market signals. Built and evaluated predictive models using Scikit-learn, performing regression analysis, feature engineering, and statistical preprocessing to forecast short-term price movements. Developed interactive visualizations and dashboards using Matplotlib and Seaborn making it easy to read for non-technical staff.",
-      image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=600&fit=crop",
-      technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Seaborn"],
+      title: "Promptline — AI Voice Agent Platform",
+      description: "Building Promptline at Theoremlabs, an AI-powered voice agent platform designed to autonomously handle high-volume, complex industry workflows entirely over a phone call — no human in the loop. Powered by ElevenLabs for natural, human-like voice synthesis and web scraping to equip the agent with real-time, domain-specific intelligence, Promptline bridges the gap between conversational AI and real-world business operations. From gathering live data to executing multi-step tasks end-to-end, the agent operates with precision and context. Beyond engineering, I own the design of the core conversation flows and automation workflows, mapping out how the agent reasons, responds, and acts across diverse industry use cases.",
+      image: "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=800&h=600&fit=crop",
+      technologies: ["ElevenLabs", "AI Voice Agents", "Web Scraping", "Python", "Workflow Design", "LLM Integration"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
