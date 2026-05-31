@@ -12,9 +12,11 @@ const ExperienceSection = () => {
         "Built APIs for feature enhancements in internal applications, enabling data-driven personalization that improved business operations and user experience across multiple platforms",
         "Built a self-serve question answer bot with Microsoft Copilot Studio leveraging domain-specific embeddings and LLM integration, boosting advisor decision-making efficiency by 60% through faster access to relevant information",
         "Designed SQL views to improve insight accessibility for stakeholders, making it easier for non-technical teams to query and analyze data without complex SQL knowledge",
-        "Performed data mapping by fetching JSON messages from RabbitMQ via API, using the extracted fields to build additional API calls to retrieve client's actual data and map it accurately across different systems for seamless integration"
+        "Performed data mapping by fetching JSON messages from RabbitMQ via API, using the extracted fields to build additional API calls to retrieve client's actual data and map it accurately across different systems for seamless integration",
+        "Designing and developing AI accelerators and Proof-of-Concepts (POCs) that rapidly prototype emerging AI capabilities, enabling the team to evaluate new technologies quickly and translate promising ideas into production-ready solutions",
+        "Leading development of Promptline, an AI voice agent product built with ElevenLabs and web scraping that autonomously handles high-volume industry workflows over call — end-to-end, from intelligence gathering to task execution — while also owning the design of its core conversation and automation workflows"
       ],
-      technologies: ["Python", "AWS Lambda", "Step Functions", "API Gateway", "S3", "SQS", "SNS", "Microsoft Copilot Studio", "SQL", "RabbitMQ"]
+      technologies: ["Python", "AWS Lambda", "Step Functions", "API Gateway", "S3", "SQS", "SNS", "Microsoft Copilot Studio", "SQL", "RabbitMQ", "ElevenLabs", "AI Voice Agents"]
     },
     {
       title: "Instructional Assistant",
