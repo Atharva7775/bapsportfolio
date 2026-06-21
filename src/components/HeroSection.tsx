@@ -51,9 +51,10 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-gray-300 text-lg md:text-xl max-w-4xl mx-auto mb-12 leading-relaxed animate-fade-in">
-          AI Engineer & Data Scientist with a Master's in Computer Science, building production-grade AI systems for financial services.
-          Specialising in LLM pipelines, RAG architectures, agentic AI, and end-to-end data engineering on AWS — with a track record
-          of shipping solutions that measurably improve how businesses operate, decide, and scale.
+          A Master's in Computer Science from UNC Charlotte, backed by hands-on experience turning ambitious AI ideas into
+          production-grade systems — from RAG pipelines and LLM-powered assistants to agentic voice applications and
+          cloud-native data infrastructure. I don't just write the code; I own the problem end-to-end and see it through to a shipped product.
+          Currently applying that at the intersection of AI and financial services, where the stakes are real and the problems are hard.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in">
