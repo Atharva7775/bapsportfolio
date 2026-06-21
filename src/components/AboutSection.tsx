@@ -20,9 +20,7 @@ const AboutSection = () => {
             </div>
             
             <p className="text-gray-300 text-lg leading-relaxed">
-              I'm a passionate Data Scientist with hands-on experience in building scalable Dashboards, 
-              intelligent bots using Microsoft Copilot, and NLP-based database assistants. I specialize in crafting scalable data solutions for the modern world using cutting-edge technologies like AWS Bedrock and innovative data-driven approaches.
-              
+              I engineer end-to-end AI systems that solve real business problems — from retrieval-augmented generation pipelines and document intelligence models to agentic voice applications and NLP-powered data assistants. My work spans AWS Bedrock, LangChain, OpenAI, and Azure, with a strong focus on production reliability, explainability, and measurable business impact. Currently a Programmer Analyst applying cutting-edge AI to financial services workflows.
             </p>
             
             <p className="text-gray-300 text-lg leading-relaxed">
