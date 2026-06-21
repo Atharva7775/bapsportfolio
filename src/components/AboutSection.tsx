@@ -24,14 +24,14 @@ const AboutSection = () => {
             </p>
             
             <p className="text-gray-300 text-lg leading-relaxed">
-              With a Master's degree in Computer Science from UNC Charlotte and experience at Theoremlabs Partners LLC, 
-              I've developed expertise in cloud engineering, automation, and analytics that drives business value and 
-              improves decision-making processes.
+              With a Master's in Computer Science from UNC Charlotte and hands-on experience at Theoremlabs Partners LLC,
+              I've shipped AI systems across the full stack — from data pipelines and model integration to agentic workflows
+              and voice AI — all in production environments where reliability and business impact are non-negotiable.
             </p>
 
             <div className="grid grid-cols-2 gap-6 mt-8">
               <div className="text-center p-4 bg-gray-800/50 rounded-lg border border-gray-700/50 hover:border-blue-500/50 transition-colors">
-                <div className="text-3xl font-bold text-blue-400 mb-2">1+</div>
+                <div className="text-3xl font-bold text-blue-400 mb-2">2+</div>
                 <div className="text-gray-300 text-sm">Years Experience</div>
               </div>
               <a 
@@ -56,31 +56,31 @@ const AboutSection = () => {
 
             <div className="space-y-4">
               <div className="bg-gray-800/30 p-6 rounded-lg border border-gray-700/50 hover:border-blue-500/30 transition-all hover:bg-gray-800/50">
-                <h4 className="text-xl font-semibold text-white mb-2">Data Science & Analytics</h4>
-                <p className="text-gray-300">Building scalable ETL pipelines and implementing machine learning solutions for real-time data processing.</p>
+                <h4 className="text-xl font-semibold text-white mb-2">Data Engineering & Analytics</h4>
+                <p className="text-gray-300">Designing end-to-end data pipelines, SQL data models, and analytics workflows that turn raw data into reliable, decision-ready insights.</p>
                 <div className="flex flex-wrap gap-2 mt-3">
                   <span className="px-3 py-1 bg-blue-600/20 text-blue-300 rounded-full text-sm">Python</span>
-                  <span className="px-3 py-1 bg-orange-600/20 text-orange-300 rounded-full text-sm">AWS</span>
-                  <span className="px-3 py-1 bg-green-600/20 text-green-300 rounded-full text-sm">Pandas</span>
+                  <span className="px-3 py-1 bg-orange-600/20 text-orange-300 rounded-full text-sm">SQL</span>
+                  <span className="px-3 py-1 bg-green-600/20 text-green-300 rounded-full text-sm">AWS</span>
                 </div>
               </div>
 
               <div className="bg-gray-800/30 p-6 rounded-lg border border-gray-700/50 hover:border-purple-500/30 transition-all hover:bg-gray-800/50">
-                <h4 className="text-xl font-semibold text-white mb-2">AI & NLP Solutions</h4>
-                <p className="text-gray-300">Developing intelligent chatbots and NLP-based database assistants using Microsoft Copilot and AWS Bedrock.</p>
+                <h4 className="text-xl font-semibold text-white mb-2">Generative AI & LLM Engineering</h4>
+                <p className="text-gray-300">Building RAG pipelines, agentic AI systems, and voice AI products using LLMs, embeddings, and prompt engineering — from POC to production.</p>
                 <div className="flex flex-wrap gap-2 mt-3">
-                  <span className="px-3 py-1 bg-purple-600/20 text-purple-300 rounded-full text-sm">Microsoft Copilot</span>
-                  <span className="px-3 py-1 bg-cyan-600/20 text-cyan-300 rounded-full text-sm">Langchain</span>
+                  <span className="px-3 py-1 bg-purple-600/20 text-purple-300 rounded-full text-sm">LangChain</span>
+                  <span className="px-3 py-1 bg-cyan-600/20 text-cyan-300 rounded-full text-sm">AWS Bedrock</span>
                   <span className="px-3 py-1 bg-red-600/20 text-red-300 rounded-full text-sm">OpenAI</span>
                 </div>
               </div>
 
               <div className="bg-gray-800/30 p-6 rounded-lg border border-gray-700/50 hover:border-green-500/30 transition-all hover:bg-gray-800/50">
-                <h4 className="text-xl font-semibold text-white mb-2">Cloud Infrastructure</h4>
-                <p className="text-gray-300">Implementing cloud-based solutions with AWS services, Lambda functions, and CI/CD pipelines.</p>
+                <h4 className="text-xl font-semibold text-white mb-2">MLOps & Cloud AI Infrastructure</h4>
+                <p className="text-gray-300">Deploying and scaling AI workloads on AWS with serverless architectures, event-driven pipelines, and cloud-native tooling built for production reliability.</p>
                 <div className="flex flex-wrap gap-2 mt-3">
                   <span className="px-3 py-1 bg-yellow-600/20 text-yellow-300 rounded-full text-sm">AWS Lambda</span>
-                  <span className="px-3 py-1 bg-blue-600/20 text-blue-300 rounded-full text-sm">Jenkins</span>
+                  <span className="px-3 py-1 bg-blue-600/20 text-blue-300 rounded-full text-sm">Step Functions</span>
                   <span className="px-3 py-1 bg-gray-600/20 text-gray-300 rounded-full text-sm">EventBridge</span>
                 </div>
               </div>

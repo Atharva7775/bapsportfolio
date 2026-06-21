@@ -42,19 +42,18 @@ const HeroSection = () => {
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-8 leading-tight animate-fade-in">
-          Turning Ideas Into Impact
+          Engineering Intelligent Systems
           <br />
-          Through{' '}
+          That Solve{' '}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 animate-glow">
-            Data Science
+            Real Problems
           </span>
         </h1>
 
         <p className="text-gray-300 text-lg md:text-xl max-w-4xl mx-auto mb-12 leading-relaxed animate-fade-in">
-        Engineer with expertise in analytics, holding a Master’s in Computer Science and hands-on experience building scalable
-        analytics pipelines, curated datasets, and data-driven platforms. Strong background in SQL, Python, AWS, and Airflow, with
-        experience supporting analytics use cases through data modeling, validation, automation, and cloud-native architectures.
-        Focused on data quality, ownership, and enabling data democratization across teams.
+          AI Engineer & Data Scientist with a Master's in Computer Science, building production-grade AI systems for financial services.
+          Specialising in LLM pipelines, RAG architectures, agentic AI, and end-to-end data engineering on AWS — with a track record
+          of shipping solutions that measurably improve how businesses operate, decide, and scale.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in">

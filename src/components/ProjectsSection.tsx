@@ -6,7 +6,7 @@ const ProjectsSection = () => {
       title: "LLM-Based Natural Language Querying for Database",
       description: "Developed a state-of-the-art NLP chatbot using AWS Bedrock foundation models wrapped with an MCP (Model–Context–Protocol) layer to manage context and tool calls for natural language-based CRUD operations on a PostgreSQL database. Enhanced user autonomy and reduced reliance on technical teams by enabling intuitive, language-driven data access, streamlining internal query workflows and improving decision-making efficiency. Applied prompt engineering to improve response reliability and reduce hallucinations by guiding the model to accurately translate user questions into SQL queries.",
       image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop",
-      technologies: ["AWS Bedrock", "PostgreSQL", "NLP", "Few-shot Learning", "Prompt Engineering"],
+      technologies: ["AWS Bedrock", "RAG", "MCP Protocol", "Text-to-SQL", "PostgreSQL", "Prompt Engineering"],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
@@ -15,7 +15,7 @@ const ProjectsSection = () => {
       title: "Consumer Purchase Behavior Modeling",
       description: "Built a machine learning pipeline to analyze consumer data and predict repeat purchase likelihood using logistic regression and decision trees, leveraging the Instacart Online Grocery Basket dataset. Engineered features such as recency and frequency of purchases to understand shopping behavior, and grouped users based on loyalty and product preferences to enhance targeting. Applied uplift modeling to estimate the impact of promotions.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
-      technologies: ["Decision Trees", "Machine Learning", "Real-time Processing", "Consumer Analytics"],
+      technologies: ["Python", "Scikit-learn", "Logistic Regression", "Feature Engineering", "Uplift Modeling"],
       liveUrl: "#",
       githubUrl: "#",
       featured: true

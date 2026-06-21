@@ -9,7 +9,7 @@ const ExperienceSection = () => {
       location: "Charlotte, NC",
       description: [
         "Improved scalability and reduced operational costs by deploying serverless architectures using AWS Lambda, Step Functions, API Gateway, S3, SQS, and SNS to handle varying workloads efficiently without managing infrastructure",
-        "Built APIs for feature enhancements in internal applications, enabling data-driven personalization that improved business operations and user experience across multiple platforms",
+        "Engineered data-driven APIs that powered personalisation features across internal platforms, enabling intelligent content and recommendation delivery that improved user engagement and streamlined business operations",
         "Built a self-serve question answer bot with Microsoft Copilot Studio leveraging domain-specific embeddings and LLM integration, boosting advisor decision-making efficiency by 60% through faster access to relevant information",
         "Designed SQL views to improve insight accessibility for stakeholders, making it easier for non-technical teams to query and analyze data without complex SQL knowledge",
         "Performed data mapping by fetching JSON messages from RabbitMQ via API, using the extracted fields to build additional API calls to retrieve client's actual data and map it accurately across different systems for seamless integration",
@@ -35,7 +35,7 @@ const ExperienceSection = () => {
       period: "Jan 2022 - Jun 2022",
       location: "Pune, India",
       description: [
-        "Collaborated with cross-functional teams to translate business requirements into scalable data solutions, working closely with product managers and stakeholders to understand their needs and deliver technical implementations that aligned with business goals",
+        "Architected and delivered a real-time infrastructure observability platform using React, TypeScript, and AWS APIs, giving engineering teams live visibility into system health, resource utilization, and performance metrics through an interactive dashboard",
         "Enabled dynamic infrastructure observability by building React + TypeScript dashboards integrated with AWS APIs for real-time monitoring, allowing teams to visualize system health, performance metrics, and resource utilization in an interactive interface",
         "Ensured secure and flexible data access by implementing AWS API Gateway over Lambda APIs, allowing users to retrieve data by custom time ranges while preserving privacy through proper authentication and authorization mechanisms"
       ],
